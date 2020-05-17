@@ -197,11 +197,11 @@ table {
  */
 
 header{
-  background: black;
-  height: 650px;
+  background: rgb(26, 4, 4);
+  height: 500px;
   img{
       width: 100%;
-      opacity: .5;
+      opacity: .8;
       object-fit: cover;
       height: 100%;
   }
@@ -211,7 +211,7 @@ header{
       line-height: 1.5em !important;
       color: white;
       position: relative;
-      bottom: 550px;
+      bottom: 450px;
       text-align: center;
       padding: 80px;
       font-size: 3em !important;
