@@ -13,8 +13,15 @@
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 %>
 
-<footer class="footer pt-3">
-  <p class="text-center mb-1"><%= t("footer.powered_by", href: link_to(t("greenlight"), "https://bigbluebutton.org/2018/07/09/greenlight-2-0/", target: "_blank", rel: "noopener")).html_safe %> <%= Greenlight::Application::VERSION %></p>
+<footer>
+    <ul>
+        <li><%= link_to 'formation a distance', 'https://formation.mayele.pro', target: '_blank'%></li>
+        <li><%= link_to 'ressources educationnelles', 'https://mayele.pro', target: '_blank'%></li>
+        <li><%= link_to 'examens', 'https://exetat.mayele.pro', target: '_blank'%></li>
+    </ul>
+    <ul>
+        <li>Powered by NBC Education</li>
+    </ul>
 </footer>
 
 <%= render "shared/components/cookie_warning" %>
